@@ -1,0 +1,29 @@
+<header class="relative flex h-screen w-full items-center overflow-hidden rounded-md antialiased md:justify-center">
+    {% include "spotlightSvg.njk" %}
+    <div class="relative z-[1] mx-auto w-full max-w-7xl p-4 pt-20 md:pt-0">
+        <div class="mb-3 text-center">
+            {% include "copyEmail.njk" %}
+        </div>
+        <h1 class="bg-opacity-50 bg-gradient-to-b from-neutral-50 to-neutral-400 bg-clip-text text-center text-5xl font-bold
+                text-transparent md:text-8xl">
+            Transformamos
+            <br/> tus ideas
+        </h1>
+        <p class="mx-auto mt-4 max-w-lg text-center text-lg font-normal text-neutral-300 md:text-2xl">
+            en experiencias digitales extraordinarias.
+        </p>
+        <div class="mt-10 flex justify-center">
+            <a
+                href="#home"
+                class="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md border-2 border-white/5
+                    bg-neutral-950 px-6 font-medium text-neutral-200 duration-500">
+                <div class="translate-y-0 opacity-100 transition group-hover:-translate-y-[150%] group-hover:opacity-0">
+                    Comencemos
+                </div>
+                <div class="absolute translate-y-[150%] opacity-0 transition group-hover:translate-y-0 group-hover:opacity-100">
+                    <i class="ti ti-arrow-narrow-down" class="text-2xl"></i>
+                </div>
+            </a>
+        </div>
+    </div>
+</header>

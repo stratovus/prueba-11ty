@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Diseño Web Creativo",
+    "description": "Nuestros diseñadores expertos trabajan mano a mano contigo para dar vida a tu visión digital. Cada diseño que creamos es único y atractivo, adaptado específicamente a tus necesidades y a la identidad de tu marca.",
+    "icons": [
+      {
+        "icon": "arc3d",
+        "styles": "text-white"
+      }
+    ]
+  },
+  {
+    "title": "Experiencia y Profesionalismo",
+    "description": "Con años de experiencia en el desarrollo web y el diseño gráfico, nuestro equipo está altamente calificado para abordar cualquier proyecto.",
+    "icons": [
+      { "icon": "box3d", "styles": "stroke-[0.5px] text-white" },
+      { "icon": "square3d", "styles": "stroke-[0.5px] text-white" }
+    ]
+  },
+  {
+    "title": "Atención Personalizada",
+    "description": "Tratamos a cada cliente de manera única. Entendemos que tus necesidades son diferentes, por lo que te brindamos una atención personalizada desde el primer contacto hasta la entrega final.",
+    "icons": [
+      { "icon": "user", "styles": "stroke-[0.5px] text-white" },
+      { "icon": "bounce", "styles": "stroke-[0.5px] text-white" }
+    ]
+  },
+  {
+    "title": "Resultados Comprobados",
+    "description": "Hemos trabajado con una variedad de clientes y sectores, obteniendo resultados tangibles y mejorando su presencia en línea.",
+    "icons": [
+      {
+        "icon": "stats-up-square",
+        "styles": "stroke-[0.5px] text-white"
+      }
+    ]
+  }
+]

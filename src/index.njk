@@ -1,0 +1,17 @@
+---
+layout: layout-page.njk
+title: Página de inicio
+description: Meta descripción de la página de inicio
+---
+
+{% import "cardinfoproduct.njk" as cardinfoproduct %}
+<section class="mb-20 grid w-full gap-16 px-5 lg:px-20" id="home">
+    {% include "bentoGrids/bentogrid.njk" %}
+    <section class="my-20 grid gap-10" id="categories">
+        {% for item in listSections %}
+            {{ cardinfoproduct.card(item.title, item.text, item.items, item.src) }}
+        {% endfor %}
+    </section>
+</section>
+
+{% include "contact.njk" %}

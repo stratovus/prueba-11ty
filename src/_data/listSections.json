@@ -1,0 +1,90 @@
+[
+  {
+    "title": "Landing page",
+    "text": "Integramos tus plataformas para facilitar la comunicación omnicanal con tus clientes.",
+    "src": "https://res.cloudinary.com/drebk8qrx/image/upload/v1709354632/indotldesing/cqgr66dzc5okytevu5i6.jpg",
+    "items": [
+      "Chatbots",
+      "CMS",
+      "Formularios eficientes",
+      "Mailchimp",
+      "WhatsApp Business"
+    ]
+  },
+  {
+    "title": "Integraciones",
+    "text": "Integramos tus plataformas para facilitar la comunicación omnicanal con tus clientes.",
+    "src": "https://res.cloudinary.com/drebk8qrx/image/upload/v1709354632/indotldesing/xhp2qxvept9wdomxxzoe.png",
+    "items": [
+      "Pasarela de pago",
+      "CMS",
+      "Mailchimp",
+      "WhatsApp Business",
+      "Shopify"
+    ]
+  },
+  {
+    "title": "Mantenimiento",
+    "text": "Monitoreamos tu sitio web para mantenerlo actualizado y en funcionamiento óptimo.",
+    "src": "https://res.cloudinary.com/drebk8qrx/image/upload/v1709354633/indotldesing/rroz8aghwutggerzxrqm.png",
+    "items": [
+      "Mejoras de seguridad",
+      "Revisión y corrección de errores",
+      "Optimización de velocidad",
+      "Gestión de rendimiento",
+      "Actualización de plugins",
+      "Respaldo de datos"
+    ]
+  },
+  {
+    "title": "eCommerce",
+    "text": "Creamos eCommerce acorde a tus objetivos comerciales. Aumenta tus ventas en línea.",
+    "src": "https://res.cloudinary.com/drebk8qrx/image/upload/v1709354632/indotldesing/phcxffghvwnrk1dnp6v3.jpg",
+    "items": [
+      "Pasarela de pago",
+      "Diseño de tienda online",
+      "Informes sobre pedidos",
+      "Fotografía de tus productos",
+      "Seguridad para pagos digitales",
+      "Formularios eficientes"
+    ]
+  },
+  {
+    "title": "SEO Ready",
+    "text": "Posicionamos tu sitio web en los primeros lugares de buscadores a partir de optimizaciones SEO.",
+    "src": "https://res.cloudinary.com/drebk8qrx/image/upload/v1709354632/indotldesing/kagpgh6v9djc9vdpsso8.jpg",
+    "items": [
+      "Creación de contenido de valor",
+      "Mejora de etiquetas HTML",
+      "Atributo ALT en imágenes",
+      "Selección de keywords relevantes",
+      "Optimización de Meta Tags",
+      "Implementación de enlaces"
+    ]
+  },
+  {
+    "title": "Diseño UX/UI",
+    "text": "Centramos el diseño de cada website en generar experiencias positivas para los usuarios que aporten valor a tu marca.",
+    "src": "https://res.cloudinary.com/drebk8qrx/image/upload/v1709354632/indotldesing/vjl6ocl78jura8qbs0pr.jpg",
+    "items": [
+      "Diseño enfocado en el target",
+      "Análisis del desempeño website",
+      "Mejora de procesos",
+      "Optimización de la interfaz",
+      "Diseños intuitivos"
+    ]
+  },
+  {
+    "title": "Optimización web",
+    "text": "Realizamos diagnósticos web para explotar oportunidades de mejora en tu website.",
+    "src": "https://res.cloudinary.com/drebk8qrx/image/upload/v1709354634/indotldesing/v50oqqqp3py8joodvgcx.jpg",
+    "items": [
+      "Acelerar de tiempo de carga",
+      "Actualizar textos",
+      "Optimizar imágenes: tamaño y peso",
+      "Mejorar el caché del sitio",
+      "Mejorar la seguridad",
+      "Actializacion de dependencias"
+    ]
+  }
+]

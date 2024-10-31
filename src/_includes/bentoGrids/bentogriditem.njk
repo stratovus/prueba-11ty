@@ -1,0 +1,40 @@
+{% from "./icons.njk" import arc3d, box3d, square3d, user, bounce, stats %}
+{% macro item(index, title, description, icons) %}
+    <div
+        class="group/bento shadow-input row-span-1 flex flex-col justify-between space-y-4 rounded-xl bg-white p-4 shadow-none
+            transition duration-200 dark:bg-black/60 {{ "
+        md:col-span-2" if (index == 1 or index == 2) else "
+        " }}">
+        {# i === 1 || i === 2 ? "md:col-span-2" : "" #}
+        <div class="flex h-[300px] w-full">
+            {% for element in icons %}
+                {# <div class="{{ element.icon }} h-full w-full {{ element.styles }}"></div> #}
+                {% if element.icon == "arc3d" %}
+                    {{ arc3d(element.styles) }}
+                {% elif element.icon == "box3d" %}
+                    {{ box3d(element.styles) }}
+                {% elif element.icon == "square3d" %}
+                    {{ square3d(element.styles) }}
+                {% elif element.icon == "user" %}
+                    {{ user(element.styles) }}
+                {% elif element.icon == "bounce" %}
+                    {{ bounce(element.styles) }}
+                {% else %}
+                    {{ stats(element.styles) }}
+                {% endif %}
+            {% endfor %}
+        </div>
+        <div class="transition duration-200 group-hover/bento:translate-x-2">
+            <div class="mb-2 mt-2 font-sans font-bold text-neutral-600 dark:text-neutral-200">
+                <span class="text-2xl">
+                    {{ title }}
+                </span>
+            </div>
+            <div class="font-sans text-xs font-normal text-neutral-600 dark:text-neutral-300">
+                <span class="text-lg">
+                    {{ description }}
+                </span>
+            </div>
+        </div>
+    </div>
+{% endmacro %}

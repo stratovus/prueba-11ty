@@ -1,0 +1,6 @@
+{% import "./bentogriditem.njk" as bentoItem %}
+<div class="grid w-full grid-cols-1 gap-4 md:grid-cols-3 ">
+    {% for element in listGrid %}
+        {{ bentoItem.item(loop.index0, element.title, element.description, element.icons) }}
+    {% endfor %}
+</div>

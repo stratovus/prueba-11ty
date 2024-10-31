@@ -1,0 +1,23 @@
+{% macro card(title, text, itemList, src) %}
+    <article class="grid w-full gap-10 text-white lg:grid-cols-2">
+        <div class="hidden h-full w-full overflow-hidden rounded-xl lg:block aspect-video object-fill">
+            <Img src="{{ src }}" alt="A lovely bath" class="w-full h-full"/>
+        </div>
+        <div class="grid content-center gap-y-3">
+            <p class="flex items-center text-base font-bold uppercase">
+                <span class="pr-6">DISEÑO WEB</span>
+                <span class="h-px flex-1 bg-black dark:bg-white"></span>
+            </p>
+            <h3 class="text-3xl">{{ title }}</h3>
+            <p class="text-lg">{{ text }}</p>
+            <ol class="grid list-inside gap-2 md:grid-cols-2">
+                {% for element in itemList %}
+                    <li class="flex items-center gap-3" style="text-wrap: pretty">
+                        {# <ManageIcons icon="Check" class="h-6 w-6"/> #}
+                        <i class="ti ti-checks text-2xl"></i> {{element}}
+                    </li>
+                {% endfor %}
+            </ol>
+        </div>
+    </article>
+{% endmacro %}
