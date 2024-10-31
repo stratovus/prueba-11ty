@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "pnpm exec eleventy --serve --port=7777",
-    "remove": "rm -rf dist"
+    "remove": "rm -rf dist",
+    "deploy-subdomain": "pnpm exec eleventy --pathprefix=/prueba-11ty/"
   },
   "keywords": [],
   "author": "",
