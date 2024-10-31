@@ -1,3 +1,4 @@
+import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
 import Nunjucks from "nunjucks";
 
 export default async function(eleventyConfig) {
@@ -10,6 +11,7 @@ export default async function(eleventyConfig) {
   );
 
   eleventyConfig.setLibrary("njk", nunjucksEnvironment);
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 };
 
 export const config = {
